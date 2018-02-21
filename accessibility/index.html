@@ -1,0 +1,636 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Accessibility · react-modal</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-tomorrow.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="./" />
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="../">
+            
+                <a href="../#installation">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="../">
+            
+                <a href="../#usage">
+            
+                    
+                    Usage summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="../">
+            
+                <a href="../#custom-parent">
+            
+                    
+                    Using a custom parent node
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="../">
+            
+                <a href="../#refs">
+            
+                    
+                    Refs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="../">
+            
+                <a href="../#license">
+            
+                    
+                    License
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Accessibility
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="./">
+            
+                <a href="./#app-element">
+            
+                    
+                    The app element
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="./">
+            
+                <a href="./#keyboard">
+            
+                    
+                    Keyboard navigation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="./">
+            
+                <a href="./#aria">
+            
+                    
+                    ARIA attributes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../styles/">
+            
+                <a href="../styles/">
+            
+                    
+                    Styles
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../styles/classes.html">
+            
+                <a href="../styles/classes.html">
+            
+                    
+                    Using CSS Classes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../styles/transitions.html">
+            
+                <a href="../styles/transitions.html">
+            
+                    
+                    Transitions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../testing/">
+            
+                <a href="../testing/">
+            
+                    
+                    Testing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../examples/">
+            
+                <a href="../examples/">
+            
+                    
+                    Examples
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../examples/minimal.html">
+            
+                <a href="../examples/minimal.html">
+            
+                    
+                    Minimal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../examples/set_app_element.html">
+            
+                <a href="../examples/set_app_element.html">
+            
+                    
+                    Using setAppElement
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../examples/on_request_close.html">
+            
+                <a href="../examples/on_request_close.html">
+            
+                    
+                    Using onRequestClose
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../examples/should_close_on_overlay_click.html">
+            
+                <a href="../examples/should_close_on_overlay_click.html">
+            
+                    
+                    Using shouldCloseOnOverlayClick
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../examples/inline_styles.html">
+            
+                <a href="../examples/inline_styles.html">
+            
+                    
+                    Using Inline Styles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../examples/css_classes.html">
+            
+                <a href="../examples/css_classes.html">
+            
+                    
+                    Using CSS Classes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../examples/global_overrides.html">
+            
+                <a href="../examples/global_overrides.html">
+            
+                    
+                    Using Global Style Overrides
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../contributing/">
+            
+                <a href="../contributing/">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../contributing/development.html">
+            
+                <a href="../contributing/development.html">
+            
+                    
+                    Development setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Accessibility</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="accessibility">Accessibility</h2>
+<p>react-modal aims to be fully accessible, using the
+<a href="https://www.w3.org/WAI/intro/aria" target="_blank">WAI-ARIA</a> guidelines to support users of
+assistive technologies.  This page describes some of react-modal&apos;s
+accessibility-oriented features, along with their configuration options.</p>
+<h3 id="app-element">The app element </h3>
+<p>It is important for users of screenreaders that other page content be hidden
+(via the <code>aria-hidden</code> attribute) while the modal is open.  To allow
+react-modal to do this, you should call <code>Modal.setAppElement</code> with a query
+selector identifying the root of your app.  For example, if your app content is
+located inside an element with the ID <code>root</code>, you could place the following
+call somewhere in your code before any modals are opened:</p>
+<pre class="language-"><code class="lang-js">Modal<span class="token punctuation">.</span><span class="token function">setAppElement</span><span class="token punctuation">(</span><span class="token string">&apos;#root&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>You can also pass a DOM element directly, so that the above example could be
+rewritten:</p>
+<pre class="language-"><code class="lang-js">Modal<span class="token punctuation">.</span><span class="token function">setAppElement</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&apos;root&apos;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>If you are already applying the <code>aria-hidden</code> attribute to your app content
+through other means, you can pass the <code>ariaHideApp={false}</code> prop to your modal
+to avoid getting a warning that your app element is not specified.</p>
+<h3 id="keyboard">Keyboard navigation </h3>
+<p>When the modal is opened, it restricts keyboard navigation using the tab key to
+elements within the modal content.  This ensures that elements outside the
+modal (which are not visible while the modal is open) do not receive focus
+unexpectedly.</p>
+<p>By default, when the modal is closed, focus will be restored to the element
+that was focused before the modal was opened.  To disable this behavior, you
+can pass the <code>shouldReturnFocusAfterClose={false}</code> prop to your modal.</p>
+<p>The modal can be closed using the escape key, unless the
+<code>shouldCloseOnEsc={false}</code> prop is passed.  Disabling this behavior may cause
+accessibility issues for keyboard users, however, so it is not recommended.</p>
+<h3 id="aria">ARIA attributes </h3>
+<p>Besides the <code>aria-hidden</code> attribute which is applied to the app element when
+the modal is shown, there are many other ARIA attributes which you can use to
+make your app more accessible.  A complete list of ARIA attributes can be found
+in the <a href="https://www.w3.org/TR/wai-aria-1.1/#state_prop_def" target="_blank">ARIA specification</a>.</p>
+<p>One ARIA attribute is given a dedicated prop by react-modal: you should use the
+<code>contentLabel</code> prop to provide a label for the modal content (via <code>aria-label</code>)
+if there is no visible label on the screen.  If the modal is already labeled
+with visible text, you should specify the element including the label with the
+<code>aria-labelledby</code> attribute using the <code>aria</code> prop described below.</p>
+<p>To pass other ARIA attributes to your modal, you can use the <code>aria</code> prop, which
+accepts an object whose keys are the attributes you want to set (without the
+leading <code>aria-</code> prefix).  For example, you could have an alert modal with a
+title as well as a longer description:</p>
+<pre class="language-"><code class="lang-jsx"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Modal</span>
+  <span class="token attr-name">isOpen</span><span class="token script language-javascript"><span class="token punctuation">=</span><span class="token punctuation">{</span>modalIsOpen<span class="token punctuation">}</span></span>
+  <span class="token attr-name">aria</span><span class="token script language-javascript"><span class="token punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span>
+    labelledby<span class="token punctuation">:</span> <span class="token string">&quot;heading&quot;</span><span class="token punctuation">,</span>
+    describedby<span class="token punctuation">:</span> <span class="token string">&quot;full_description&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>heading<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Alert<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>full_description<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Description goes here<span class="token punctuation">.</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Modal</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../#license" class="navigation navigation-prev " aria-label="Previous page: License">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="./#app-element" class="navigation navigation-next " aria-label="Next page: The app element">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Accessibility","level":"1.2","depth":1,"next":{"title":"The app element","level":"1.2.1","depth":2,"anchor":"#app-element","path":"accessibility/README.md","ref":"accessibility/README.md#app-element","articles":[]},"previous":{"title":"License","level":"1.1.5","depth":2,"anchor":"#license","path":"README.md","ref":"README.md#license","articles":[]},"dir":"ltr"},"config":{"plugins":["codepen","edit-link","prism","-highlight","anchorjs","github"],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"github":{"url":"https://github.com/reactjs/react-modal"},"search":{},"codepen":{"height":1000,"defaultTab":"js"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/reactjs/react-modal/tree/master/docs"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"react-modal","gitbook":">=3.2.2"},"file":{"path":"accessibility/README.md","mtime":"2018-02-21T12:51:28.618Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-02-21T12:57:15.409Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-codepen/embed-codepen.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.1.1/anchor.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-anchorjs/anchor-style.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

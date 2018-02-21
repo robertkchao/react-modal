@@ -1,0 +1,640 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Using CSS Classes · react-modal</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-tomorrow.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="transitions.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="../">
+            
+                <a href="../#installation">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="../">
+            
+                <a href="../#usage">
+            
+                    
+                    Usage summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="../">
+            
+                <a href="../#custom-parent">
+            
+                    
+                    Using a custom parent node
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="../">
+            
+                <a href="../#refs">
+            
+                    
+                    Refs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="../">
+            
+                <a href="../#license">
+            
+                    
+                    License
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../accessibility/">
+            
+                <a href="../accessibility/">
+            
+                    
+                    Accessibility
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../accessibility/">
+            
+                <a href="../accessibility/#app-element">
+            
+                    
+                    The app element
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../accessibility/">
+            
+                <a href="../accessibility/#keyboard">
+            
+                    
+                    Keyboard navigation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../accessibility/">
+            
+                <a href="../accessibility/#aria">
+            
+                    
+                    ARIA attributes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Styles
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="classes.html">
+            
+                <a href="classes.html">
+            
+                    
+                    Using CSS Classes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="transitions.html">
+            
+                <a href="transitions.html">
+            
+                    
+                    Transitions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../testing/">
+            
+                <a href="../testing/">
+            
+                    
+                    Testing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../examples/">
+            
+                <a href="../examples/">
+            
+                    
+                    Examples
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../examples/minimal.html">
+            
+                <a href="../examples/minimal.html">
+            
+                    
+                    Minimal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../examples/set_app_element.html">
+            
+                <a href="../examples/set_app_element.html">
+            
+                    
+                    Using setAppElement
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../examples/on_request_close.html">
+            
+                <a href="../examples/on_request_close.html">
+            
+                    
+                    Using onRequestClose
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../examples/should_close_on_overlay_click.html">
+            
+                <a href="../examples/should_close_on_overlay_click.html">
+            
+                    
+                    Using shouldCloseOnOverlayClick
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../examples/inline_styles.html">
+            
+                <a href="../examples/inline_styles.html">
+            
+                    
+                    Using Inline Styles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../examples/css_classes.html">
+            
+                <a href="../examples/css_classes.html">
+            
+                    
+                    Using CSS Classes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../examples/global_overrides.html">
+            
+                <a href="../examples/global_overrides.html">
+            
+                    
+                    Using Global Style Overrides
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../contributing/">
+            
+                <a href="../contributing/">
+            
+                    
+                    Contributing
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../contributing/development.html">
+            
+                <a href="../contributing/development.html">
+            
+                    
+                    Development setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Using CSS Classes</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="css-classes">CSS Classes</h3>
+<p>Sometimes it may be preferable to use CSS classes rather than inline styles.
+react-modal can be configured to use CSS classes to style the modal content and
+overlay, as well as the document body and the portal within which the modal is
+mounted.</p>
+<h4 id="for-the-content-and-overlay">For the content and overlay</h4>
+<p>You can use the <code>className</code> and <code>overlayClassName</code> props to control the CSS
+classes that are applied to the modal content and the overlay, respectively.
+Each of these props may be a single string containing the class name to apply
+to the component.</p>
+<p>Alternatively, you may pass an object with the <code>base</code>, <code>afterOpen</code> and
+<code>beforeClose</code> keys, where the value corresponding to each key is a class name.
+The <code>base</code> class will always be applied to the component, the <code>afterOpen</code> class
+will be applied after the modal has been opened and the <code>beforeClose</code> class
+will be applied after the modal has requested to be closed (e.g. when the user
+presses the escape key or clicks on the overlay).</p>
+<p>Please note that the <code>beforeClose</code> class will have no effect unless the
+<code>closeTimeoutMS</code> prop is set to a non-zero value, since otherwise the modal
+will be closed immediately when requested.  Thus, if you are using the
+<code>afterOpen</code> and <code>beforeClose</code> classes to provide transitions, you may want to
+set <code>closeTimeoutMS</code> to the length (in milliseconds) of your closing
+transition.</p>
+<p>If you specify <code>className</code>, the <a href="./">default content styles</a> will not be
+applied.  Likewise, if you specify <code>overlayClassName</code>, the default overlay
+styles will not be applied.</p>
+<p>If no class names are specified for the overlay, the default classes
+<code>ReactModal__Overlay</code>, <code>ReactModal__Overlay--after-open</code> and
+<code>ReactModal__Overlay--before-close</code> will be applied; the default classes for
+the content use the analogous prefix <code>ReactModal__Content</code>.  Please note that
+any styles applied using these default classes will not override the default
+styles as they would if specified using the <code>className</code> or <code>overlayClassName</code>
+props.</p>
+<h4 id="for-the-documentbody-and-html-tag">For the document.body and html tag</h4>
+<p>You can override the default class that is added to <code>document.body</code> when the
+modal is open by defining a property <code>bodyOpenClassName</code>.</p>
+<p>The <code>bodyOpenClassName</code> prop must be a <em>constant string</em>; otherwise, we would
+require a complex system to manage which class name should be added to or
+removed from <code>document.body</code> from which modal (if using multiple modals
+simultaneously).  The default value is <code>ReactModal__Body--open</code>.</p>
+<p><code>bodyOpenClassName</code> can support adding multiple classes to <code>document.body</code> when
+the modal is open. Add as many class names as you desire, delineated by spaces.</p>
+<p>One potential application for the body class is to remove scrolling on the body
+when the modal is open.  To do this for all modals (except those that specify a
+non-default <code>bodyOpenClassName</code>), you could use the following CSS:</p>
+<pre class="language-"><code class="lang-CSS">.ReactModal__Body--open {
+    overflow: hidden;
+}
+</code></pre>
+<p>You can define a class to be added to the html tag, using the <code>htmlOpenClassName</code>
+attribute, which can be helpeful to stop the page to scroll to the top when open
+a modal.</p>
+<p>This attribute follows the same rules as <code>bodyOpenClassName</code>, it must be a <em>constant string</em>;</p>
+<p>Here is an example that can help preventing this behavior:</p>
+<pre class="language-"><code class="lang-CSS">.ReactModal__Body--open,
+.ReactModal__Html--open {
+  overflow: hidden;
+}
+</code></pre>
+<h4 id="for-the-entire-portal">For the entire portal</h4>
+<p>To specify a class to be applied to the entire portal, you may use the
+<code>portalClassName</code> prop.  By default, there are no styles applied to the portal
+itself.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Styles">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="transitions.html" class="navigation navigation-next " aria-label="Next page: Transitions">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Using CSS Classes","level":"1.3.1","depth":2,"next":{"title":"Transitions","level":"1.3.2","depth":2,"path":"styles/transitions.md","ref":"styles/transitions.md","articles":[]},"previous":{"title":"Styles","level":"1.3","depth":1,"path":"styles/README.md","ref":"styles/README.md","articles":[{"title":"Using CSS Classes","level":"1.3.1","depth":2,"path":"styles/classes.md","ref":"styles/classes.md","articles":[]},{"title":"Transitions","level":"1.3.2","depth":2,"path":"styles/transitions.md","ref":"styles/transitions.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["codepen","edit-link","prism","-highlight","anchorjs","github"],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"github":{"url":"https://github.com/reactjs/react-modal"},"search":{},"codepen":{"height":1000,"defaultTab":"js"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/reactjs/react-modal/tree/master/docs"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"react-modal","gitbook":">=3.2.2"},"file":{"path":"styles/classes.md","mtime":"2018-02-21T12:51:28.621Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-02-21T12:57:15.409Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-codepen/embed-codepen.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.1.1/anchor.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-anchorjs/anchor-style.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
