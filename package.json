@@ -1,6 +1,9 @@
 {
   "name": "react-modal",
-  "version": "3.5.1",
+  "version": "3.5.1-fix-overlay-click",
+  "publishConfig": {
+    "registry": "http://10.180.20.84:8081/repository/sf_npm_repo/"
+  },
   "description": "Accessible modal dialog component for React.JS",
   "main": "./lib/index.js",
   "module": "./lib/index.js",

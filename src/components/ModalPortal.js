@@ -263,11 +263,8 @@ export default class ModalPortal extends Component {
         this.focusContent();
       }
     }
+    event.stopPropagation();
     this.shouldClose = null;
-  };
-
-  handleContentOnMouseUp = () => {
-    this.shouldClose = false;
   };
 
   handleOverlayOnMouseDown = event => {
@@ -277,10 +274,6 @@ export default class ModalPortal extends Component {
   };
 
   handleContentOnClick = () => {
-    this.shouldClose = false;
-  };
-
-  handleContentOnMouseDown = () => {
     this.shouldClose = false;
   };
 
@@ -342,8 +335,6 @@ export default class ModalPortal extends Component {
           className={this.buildClassName("content", className)}
           tabIndex="-1"
           onKeyDown={this.handleKeyDown}
-          onMouseDown={this.handleContentOnMouseDown}
-          onMouseUp={this.handleContentOnMouseUp}
           onClick={this.handleContentOnClick}
           role={this.props.role}
           aria-label={this.props.contentLabel}
